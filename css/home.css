@@ -89,12 +89,12 @@
   }
   
   .hero .location-input  button {
-    width: 6rem;
-    height: 2.25rem;
+    width: 7rem;
+    height: 3rem;
     color: #fff;
     background-color: #0090e3;
     border: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 0.05rem;
     margin-top: 1rem;
     margin-bottom: 4rem;
