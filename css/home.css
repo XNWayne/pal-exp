@@ -107,6 +107,7 @@
   .hero .location-input button img {
       width: 1.875rem;
       height: 1.875rem;
+      display: none;
   }
   
   .hero .current {
@@ -160,6 +161,10 @@
           justify-content: center;
           flex-direction: row;
           margin-top: 3rem;
+      }
+
+      .hero .location-input button img {
+          display: block;
       }
 
       .hero h1 {
