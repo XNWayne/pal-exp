@@ -48,6 +48,11 @@
     margin: 1rem 0 0 0 ;
   }
   
+  .hero h1 span {
+    color: #0090e3;
+    font-size: 5rem;
+}
+
   .hero .location-input {
     margin-top: 5rem;
     display: flex;
@@ -150,11 +155,6 @@
           text-align: left;
           font-size: 3.5rem;
           width: 31.25rem;
-      }
-
-      .hero h1 span {
-          color: #0090e3;
-          font-size: 5rem;
       }
 
       .hero .location-input button{
