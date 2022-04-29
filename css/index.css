@@ -36,11 +36,18 @@ header nav button {
 
 .hero {
   background-color: #ffd100;
+  background-image: url(/assets/images/hero.png);
+  background-size: cover;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.hero .hero-img {
+    width: 20rem;
+    display: none;
 }
 
 .hero h1 {
