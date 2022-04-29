@@ -126,10 +126,11 @@
       justify-content: center;
   }
   
-  @media (min-width: 540px) { 
+  @media (min-width: 1200px) { 
 
     header {
         padding: 1rem 2rem;
+        border-bottom: 1px solid #ffd100;
     }
 
       .hero {
