@@ -55,11 +55,11 @@ header nav button {
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
-  margin: -2rem 0;
+  margin: 2rem 0;
 }
 
 .hero .location-input {
-  margin-top: 10rem;
+  margin-top: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,6 +101,7 @@ header nav button {
   font-size: 1rem;
   letter-spacing: 0.05rem;
   margin-top: 1rem;
+  margin-bottom: 5rem;
 }
 
 .hero .current {
@@ -115,7 +116,6 @@ header nav button {
   padding:0 2rem 0 .625rem;
   color: #0090e3;
   font-weight: 500;
-  margin-top: 6rem;
   margin-inline: auto;
 }
 
