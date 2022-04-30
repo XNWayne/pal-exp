@@ -12,22 +12,23 @@ header img {
 }
 
 header nav button {
-  width: 7.5rem;
-  height: 2.125rem;
+  /* width: 7.5rem; */
+  /* height: 2.125rem; */
   background-color: #0090e3;
   border-radius: 50px;
   border: none;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.05rem;
+  padding: .6rem 1.2rem;
 }
 
 .hero {
   background-color: #ffd100;
   background-image: url(/assets/images/hero.png);
   background-size: cover;
-  padding: 2rem 0 4rem 0;
+  padding: 1.5rem 0 6.5rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,10 +53,11 @@ header nav button {
 .hero h1 span {
   color: #0090e3;
   font-size: 5rem;
+  border-radius: 100px;
 }
 
 .hero .location-input {
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,6 +71,7 @@ header nav button {
   display: flex;
   align-items: center;
   padding: 0.5rem;
+  border-radius: 10px;
 }
 
 .hero .location-input div img {
@@ -88,22 +91,22 @@ header nav button {
   margin-left: 1rem;
 }
 
+.hero .location-input div input::placeholder {
+  color: rgb(187, 187, 187);
+  font-weight: 400;
+}
+
 .hero .location-input button {
   width: 7rem;
   height: 3rem;
   color: #fff;
   background-color: #0090e3;
   border: none;
+  border-radius: 10px;
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
   margin-top: 1rem;
-  margin-bottom: 4rem;
-}
-
-.hero .location-input button img {
-  width: 1.875rem;
-  height: 1.875rem;
-  display: none;
+  margin-bottom: 2rem;
 }
 
 .hero .current {
@@ -134,8 +137,18 @@ header nav button {
 
 @media (min-width: 1200px) {
   header {
-    padding: 1rem 2rem;
+    padding: 2rem 4rem;
     border-bottom: 1px solid #ffd100;
+  }
+
+  header nav button {
+    padding: .8rem 1.6rem;
+    font-size: 16px;
+  }
+
+  header img {
+    width: 6rem;
+    height: 5rem;
   }
 
   .hero {
@@ -143,6 +156,7 @@ header nav button {
     flex-direction: row-reverse;
     justify-content: space-between;
     padding-inline: 5rem;
+    padding: 3rem 6rem 6.35rem 6rem;
   }
 
   .hero .hero-img {
@@ -172,12 +186,12 @@ header nav button {
     margin: 0;
     margin-left: 2rem;
     width: 8rem;
-    height: 3.6rem;
+    height: 3.4rem;
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 5rem;
+    padding: 1.5rem 2rem;
   }
 
   .hero .location-input .input {
