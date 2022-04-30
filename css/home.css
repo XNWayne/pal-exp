@@ -109,13 +109,13 @@ header nav button {
 }
 
 .hero .location-input button {
-  width: 7rem;
-  height: 3rem;
+  width: 6.8rem;
+  height: 2.8rem;
   color: #fff;
   background-color: #0090e3;
   border: none;
   border-radius: 10px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   letter-spacing: 0.05rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
