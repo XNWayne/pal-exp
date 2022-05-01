@@ -73,10 +73,12 @@ header nav button {
 }
 
 .title img {
-  width: 2rem;
+  width: 1.875rem;
 }
 
 .title p {
+  margin: 0;
+  padding: 0;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: .05rem;
