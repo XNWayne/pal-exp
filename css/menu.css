@@ -33,7 +33,10 @@ header .icons {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+}
+
+header .icons button:nth-child(1) {
+    margin-right: 1.5rem;
 }
 
 header .icons img {
