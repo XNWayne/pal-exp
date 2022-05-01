@@ -55,7 +55,7 @@ header nav button {
 .hero h1 {
   width: 20rem;
   font-family: "Ubuntu", "Roboto", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
   margin: .5rem 0 0 0;
@@ -196,6 +196,10 @@ footer .links a {
     justify-content: space-between;
     padding-inline: 5rem;
     padding: 3rem 6rem;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
   }
 
   .hero .hero-img {
