@@ -158,9 +158,14 @@ header nav button {
 }
 
 .desc {
+  height: 10rem;
   text-align: center;
-  margin-top: 2rem;
+ padding-top: 2rem;
   padding: 0 2rem;
+  background-image: url(/assets/images/sectio-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .desc .text h2{
@@ -266,6 +271,9 @@ footer .links a {
     display: block;
   }
 
+  .desc {
+    height: 20rem;
+  }
 
   .hero h1 {
     text-align: left;
