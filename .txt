@@ -1,3 +1,5 @@
+/// Homepage
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -40,14 +42,10 @@
         <div>
           <!-- <h1>Anything for a smile<span>.</span></h1> -->
           <h1> Discover and get <br> great food<span>.</span> </h1>
-          <div class="title">
-            <img src="./assets/icons/pin.svg" alt="pin-location">
-            <p>Delivering to</p>
-          </div>
           <div class="location-input">
             <div class="input">
               <img src="./assets/icons/location.svg" alt="location-icon" />
-              <input type="text" placeholder="Lurambi" />
+              <input type="text" placeholder="Enter your location" />
             </div>
             <button>Confirm</button>
           </div>

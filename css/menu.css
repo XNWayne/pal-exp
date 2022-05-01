@@ -62,6 +62,10 @@ header .icons button {
     border-bottom: 4px solid #ffd100;
 }
 
+.ad{
+    width: 2rem;
+}
+
 .main .fullstop,
 .greetings h1 span:nth-child(2) {
     color: #0090e3;
