@@ -3,7 +3,6 @@ main{
 }
 
 header {
-    margin: .5rem;
     background-color: #ffd100;
     display: flex;
     align-items: center;
@@ -34,7 +33,7 @@ header .icons {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 header .icons img {
